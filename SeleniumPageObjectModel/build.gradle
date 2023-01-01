@@ -20,3 +20,5 @@ dependencies {
     testImplementation group: 'org.testng', name: 'testng', version: '7.7.1'
 
 }
+
+//git remote set-url --add origin https://github.com/ranafge/seleniumJavaPOM.git
