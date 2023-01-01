@@ -1,0 +1,8 @@
+steps of selenium test
+1. create webDriver instance
+2. navigate the web page
+3. locate the web element
+4. perform action on web element
+5. anticipate the browser actions
+6. conduct the test
+7. conclude test
