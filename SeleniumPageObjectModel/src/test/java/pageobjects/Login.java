@@ -2,6 +2,7 @@ package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Login extends Base{
     private WebDriver driver;
@@ -13,7 +14,7 @@ public class Login extends Base{
 
     public Login(WebDriver driver) {
         super(driver);
-        visit("https://the-internet.herokuapp.com/login");
+//        visit("https://the-internet.herokuapp.com/login");
     }
 
     public void with(String username, String password) {
@@ -23,6 +24,8 @@ public class Login extends Base{
         click(submitBtn);
 
     }
+
+
 
     public boolean successMessage() {
         return driver.findElement(successMessageLocator).isDisplayed();
